@@ -26,5 +26,6 @@ class AppServiceProvider extends ServiceProvider
         \PagSeguroLibrary::init();
         \PagSeguroConfig::init();
         \PagSeguroResources::init();
+        $this->app->register(RepositoryServiceProvider::class);
     }
 }

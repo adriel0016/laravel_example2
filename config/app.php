@@ -181,6 +181,9 @@ return [
         App\Providers\RouteServiceProvider::class,
         \Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
 
+
+        Prettus\Repository\Providers\RepositoryServiceProvider::class
+
     ],
 
     /*
